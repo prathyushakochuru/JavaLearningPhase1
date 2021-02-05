@@ -60,14 +60,19 @@ public class Calculater {
 	   {
 	   //Addition
 	   case '+' : x = a + b;
+	   break;
 	   //Subtraction
 	   case '-' : x = a - b;
+	   break;
 	   //Multiplication
 	   case '*' : x = a * b;
+	   break;
 	   //Division
 	   case '/' : x = a / b;
+	   break;
 	   //Modulo - returns the reminder once divided
 	   case '%' : x = a % b;
+	   break;
 	   //adding default case when an error occurs
 	   }
 	   //returns the result x
